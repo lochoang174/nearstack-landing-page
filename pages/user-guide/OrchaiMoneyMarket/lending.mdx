@@ -1,0 +1,17 @@
+## Lending
+Users can become lenders by depositing their preferred asset that is accepted by the protocol. Deposits can be withdrawn anytime unless every token in a market is borrowed.
+
+Lending interest is distributed through the value appreciation of oToken, which is minted to lenders as a deposit receipt.
+
+## oToken
+oToken balances represent a depositor's share in the market. The exchange rate with their underlying token, the oToken exchange rate, increases as deposits accrues interest, appreciating the value of oToken. With time, holders can redeem oToken with a greater number of underlying tokens, enabling depositors to collect interest simply by holding them.
+
+The oToken exchange rate at time t
+t is defined as:
+Where total Deposited ( t ) totalDeposited(t) and t o t a l B o r r o w e d ( t ) totalBorrowed(t) is the amount of money sent into the system and amount of money borrowed by the borrower at time t t. A share of the protocol’s interests is allocated to a collector contract from the ecosystem treasury, saved to the parameter r e s e r v e s ( t ) reserves(t). As the market’s total borrowing balance increases (as a function of borrower interest accruing), the exchange rate between oToken and the underlying asset increases. The amount of oToken a user receives when depositing underlying asset is calculated using the o T o k e n E x c h a n g e R a t e oTokenExchangeRate value using the formula below:
+## Lending Interest Rate
+The equation above simply means that all income received through lending, after a small portion is subtracted to deposit into the system's reserve, will be split equally among lenders.
+
+The lending interest rate 
+L(t)L(t) at time t
+t can be re-expressed by the following formula:
