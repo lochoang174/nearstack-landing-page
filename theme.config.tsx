@@ -8,7 +8,7 @@ const config: DocsThemeConfig = {
   head: function useHead() {
     const config = useConfig<{ description?: string; image?: string }>();
     const description = config.frontMatter.description || 'Website description';
-    const title = `${config.title} | Atopus`;
+    const title = `${config.title} | Wemical`;
     return (
       <>
         <title>{title}</title>
