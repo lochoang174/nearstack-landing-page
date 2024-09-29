@@ -6,8 +6,7 @@ import Link from 'next/link';
 import { useNavigate } from 'react-router-dom';
 
 export default function IndexPage() {
-    const navigate = useNavigate();
-
+  
   return (
     <div className="relative isolate min-h-[91vh]"
           style={{ backgroundImage: "url('./assets/bg.png')",
@@ -23,7 +22,7 @@ export default function IndexPage() {
           <p className='opacity-80 font-specific-bold'>The low-code DeFi platform providing multiple protocols and features powered by AI.</p>
 <button
   className='font-specific-bold bg-black text-white p-2 rounded-md w-[116px]'
-  onClick={() => navigate('https://wemical.weminal.com/demo')}
+  onClick={() => window.location.href = 'https://wemical.weminal.com/demo'}
 >
   Get Started
 </button>
