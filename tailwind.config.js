@@ -72,6 +72,11 @@ module.exports = {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
+      fontFamily:{
+        'specific-bold': ['specific-bold','ans-serif'], // Fallback to sans-serif
+        'specific-black': ['specific-black'], // Fallback to sans-serif
+
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],

@@ -1,7 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'specific-bold';
+  src: url('/public//fonts/SpecifyPERSONAL-NormBold.ttf') format('truetype');
 
+}
+@font-face {
+  font-family: 'specific-black';
+  src: url('/public//fonts/SpecifyPERSONAL-ExExpBold.ttf') format('truetype');
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
