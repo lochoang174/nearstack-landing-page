@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { useConfig, DocsThemeConfig } from 'nextra-theme-docs';
 import Link from 'next/link';
 import SelectVersion from './components/select-version/SelectVersion';
+import { FaXTwitter } from "react-icons/fa6";
 
 const config: DocsThemeConfig = {
   head: function useHead() {
@@ -43,7 +44,7 @@ const config: DocsThemeConfig = {
     const [selectedVersion, setSelectedVersion] = useState('latest');
     const [renderSelect, setRenderSelect] = useState(true);
 
-    const versionsArr = ['v1.0.1', 'v1.0.2', 'v1.0.3', 'v1.0.4']; // Danh sách các phiên bản có sẵn
+    const versionsArr = [ 'latest']; // Danh sách các phiên bản có sẵn
 
     useEffect(() => {
       const pathArray = window.location.pathname.split('/');
@@ -103,10 +104,11 @@ const config: DocsThemeConfig = {
     defaultMenuCollapseLevel: 1
   },
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/Weminal-labs/wemical',
   },
   chat: {
-    link: 'https://discord.com',
+    icon:<FaXTwitter />,
+    link: 'https://x.com/Wemical',
   },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
 
