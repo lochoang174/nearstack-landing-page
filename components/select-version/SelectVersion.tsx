@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const SelectVersion = () => {
   const [selectedVersion, setSelectedVersion] = useState('');
 
-  const versionsArr = ['latest']; // Danh sách các phiên bản có sẵn
+  const versionsArr = ['v1.0.1']; // Danh sách các phiên bản có sẵn
 
   useEffect(() => {
     const pathArray = window.location.pathname.split('/');
