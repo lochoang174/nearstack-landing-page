@@ -1,6 +1,6 @@
 {
-  "index": "1. User guide",
-  "installation": "2. How to use",
-  "OrchaiLiquidStaking": "Orchai Liquid Staking",
-  "OrchaiMoneyMarket":"Orchai Money Market"
+  "installation": "1. How to use",
+  "OrchaiLiquidStaking": "2. Wemical Liquid Staking",
+  "OrchaiMoneyMarket":"3. Wemical Money Market",
+  "Resources": "4. Resources"
 }

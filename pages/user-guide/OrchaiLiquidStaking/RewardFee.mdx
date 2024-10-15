@@ -1,6 +1,6 @@
 # Reward & Fee
 ## Reward
-s[Token]/sc[Token] tokens accrue Token rewards, generated from delegation rewards of underlying ORAI delegations. 
+s[Token]/sc[Token] tokens accrue Token rewards, generated from delegation rewards of underlying WEM delegations. 
 
 ## s[Token]
 Holders can send a request to the s[Token] reward contract, which prompts the transfer of accrued rewards to their account. 
@@ -14,4 +14,4 @@ The following direct fees are collected:
 
 - Peg recovery fee: Only applies to s[Token] token. Slashing events decrease the s[Token] exchange rate, lowering the calculated value of a s[Token] token. The protocol applies a fee of 0.5%( configurable) to s[Token] mints and burns whenever the exchange rate is below 1, targeting a gradual recovery to a one-to-one peg.
 - Maintenance fee: Only applies to sc[Token] token. This 2% fee is charged on the automatic compounding of rewards.
-- Orchai operating costs fee. All accrued rewards are taxed at a configurable rate. The fee is set at 0% but can be increased later.
+- Wemical operating costs fee. All accrued rewards are taxed at a configurable rate. The fee is set at 0% but can be increased later.
