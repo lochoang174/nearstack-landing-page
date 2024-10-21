@@ -10,9 +10,13 @@
   font-family: 'specific-black';
   src: url('/public//fonts/SpecifyPERSONAL-ExExpBold.ttf') format('truetype');
 }
+
+.nx-bg-white {
+  background-color: transparent !important;
+}
 @layer base {
   :root {
-    --background: 200 33% 93%;
+    // --background: 200 33% 93%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -43,9 +47,9 @@
     --radius: 0.5rem;
   }
 
-div {
-  background-color: #e7f0f4 !important;
-}
+// div {
+//   background-color: #e7f0f4 !important;
+// }
 
   .dark {
     --background: 222.2 84% 4.9%;
@@ -83,7 +87,10 @@ div {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    background-image: url(/assets/bkg.png);
+    background-size: cover ;
+    backdrop-filter: blur(16px);
+    @apply  text-foreground;
   }
 }
 
