@@ -10,11 +10,7 @@
     "type": "page",
     "title": "User Guide"
   },
-  "docs": {
-    "type": "page",
-    "href": "/docs/v1.0.1",
-    "title": "Documentation"
-  },
+
   "change-log": {
     "type": "page",
     "title": "Change Log",

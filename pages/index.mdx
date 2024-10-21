@@ -3,22 +3,28 @@ title: Home
 ---
 
 import Link from 'next/link';
-
+import {useEffect} from 'react';
 export default function IndexPage() {
-  
+  useEffect(() => {
+    document.body.style.backgroundImage = "url('/assets/bkg.png')";
+    return () => {
+      document.body.style.background = "#fff";
+
+    }
+  }, [])
   return (
-    <div className=" w-full relative isolate min-h-[91vh] flex items-center justify-center gap-20 bg-[#e7f0f4]"
+    <div className=" w-full relative isolate min-h-[91vh] flex items-center justify-center gap-20 "
           // Set the background image here
 
     >
       <div className=" max-w-3xl py-32 sm:py-48 lg:py-56 ">
         <div className='w-[500px] flex flex-col gap-3'>
           <div className='text-[44px] font-specific-black'>
-            <span className='font-sans font-[700] text-[#00ff7f]'>NEARSTACK</ span>
+            <span className='font-sans font-[700] text-[#00ff7f] drop-shadow-[2px_2px_2px_#00000038]'>NEARSTACK</span>
           </div>
-          <p className='font-sans text-[18px] opacity-80 font-[400]'>AI-Enhanced Frontend Development And Blockchain Intergration Platform for Web3.</p>
+          <p className='font-sans text-[16px] opacity-80 font-[500]'>AI-Enhanced Frontend Development And Blockchain Intergration Platform for Web3.</p>
           <button
-            className='font-sans bg-[#00ff7f] font-[600] bg-black mt-4 text-white py-2 px-3 rounded-md w-fit'
+            className='hover:shadow-lg font-sans bg-[#00ff7f] font-[600]  mt-4 text-white py-2 px-3 rounded-md w-fit'
             onClick={() => window.location.href = 'https://nearstack.weminal.com/demo'}
           >
             Get Started
@@ -33,10 +39,8 @@ export default function IndexPage() {
               backgroundSize: "cover",
               backgroundPosition: "center",
            }} 
-           className='w-[320px] h-[320px]'
+           className='w-[320px] pt-0 h-[320px] hover:scale-110 ease-in duration-500'
       > 
-
-      
       </ div>
 
     </div>
