@@ -77,7 +77,9 @@ const config: DocsThemeConfig = {
           href="/"
           className="hidden sm:flex items-center text-current no-underline hover:opacity-75 ltr:mr-auto rtl:ml-auto"
         >
-          <Image src="/logo/logo1.png" alt="logo" width={100} height={45} />
+            <span className='font-sans font-[700] text-[24px] text-[#00ff7f] border-b-[2px] border-[#000]'>NEAR</ span>
+            <span className='font-sans font-[700] text-[24px] text-[#000] border-b-[2px] border-[#00ff7f]'>STACK</ span>
+            {/* <Image src="/logo/logo1.png" alt="logo" width={100} height={45} /> */}
           {/* <span className="select-none font-bold ltr:ml-2 rtl:mr-2 inline">Wemical</span> */}
         </Link>
 
@@ -104,11 +106,11 @@ const config: DocsThemeConfig = {
     defaultMenuCollapseLevel: 1
   },
   project: {
-    link: 'https://github.com/Weminal-labs/wemical',
+    link: 'https://github.com/Weminal-labs/nearstack',
   },
   chat: {
     icon:<FaXTwitter />,
-    link: 'https://x.com/Wemical',
+    link: 'https://x.com/Nearstack',
   },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
 

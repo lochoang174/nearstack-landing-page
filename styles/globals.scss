@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-  font-family: 'specific-bold';
+  font-family: sans-serif;
   src: url('/public//fonts/SpecifyPERSONAL-NormBold.ttf') format('truetype');
 
 }
@@ -12,16 +12,16 @@
 }
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 200 33% 93%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
 
-    --popover: 0 0% 100%;
+    --popover: 200 33% 93%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: #00ff7f;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -42,6 +42,10 @@
 
     --radius: 0.5rem;
   }
+
+div {
+  background-color: #e7f0f4 !important;
+}
 
   .dark {
     --background: 222.2 84% 4.9%;
