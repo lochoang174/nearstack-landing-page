@@ -110,7 +110,7 @@ const config: DocsThemeConfig = {
   },
   chat: {
     icon:<FaXTwitter />,
-    link: 'https://x.com/Nearstack',
+    link: 'https://x.com/Nearstacks',
   },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
 
