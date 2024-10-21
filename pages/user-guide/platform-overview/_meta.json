@@ -1,6 +1,5 @@
 {
-    "borrowing": "Borrowing",
-    "lending":"Lending",
-    "liquidation": "Liquidation",
-    "protocol":"Protocol"
-  }
+    "dashboard":"Dashboard",
+    "key-components": "Key Components",
+    "navigating":"Navigating The UI"
+}

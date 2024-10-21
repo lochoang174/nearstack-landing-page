@@ -1,5 +1,4 @@
 {
-    "Staked-Assets": "Staked Token",
-    "RewardFee": "Reward & Fee",
-    "Validator": "Validator"
-  }
+    "index": "Create components",
+    "ai-support": "AI Support"
+}

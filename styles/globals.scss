@@ -86,9 +86,10 @@
     @apply border-border;
   }
   body {
-    background-image: url(/assets/bkg.png);
+    min-height: 100vh;
+    // background-image: url(/assets/bkg.png);
     background-size: cover ;
-    backdrop-filter: blur(16px);
+    backdrop-filter: blur(40px);
     @apply  text-foreground;
   }
 }
