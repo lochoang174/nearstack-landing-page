@@ -2,7 +2,7 @@
 You can view at Readme File or [Notion Site](https://shadow-eagle-469.notion.site/Build-a-documentation-site-with-Weminal-Template-using-Nextra-ddb5af4b8a5546c99a5ad8fa0557850c?pvs=4) to gain this knowledge 
 
 ![image.png](/public/readme_assets/image.png)
-
+ 
 ## 1. What is Nextra?
 
 According to [Nextra.site](https://nextra.site/docs), Nextra is a framework on top of Next.js that lets you build content-focused websites. It has all the great features from Next.js, plus extra power to create Markdown-based content with ease.
