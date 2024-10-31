@@ -75,9 +75,11 @@ function Home() {
                 <span className="text-[var(--primary)] font-[700]">{item.title}</span>
             </div>)
               }
+              
         </div>
+        
       </div>
-
+      
         
     </div>
 

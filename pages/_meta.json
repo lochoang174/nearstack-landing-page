@@ -9,13 +9,7 @@
   "user-guide": {
     "type": "page",
     "title": "User Guide"
-  },
-
-  "change-log": {
-    "type": "page",
-    "title": "Change Log",
-    "theme": {
-      "layout": "raw"
-    }
   }
+
+  
 }
