@@ -15,6 +15,11 @@
             "title": "Publish your BOS components",
             "description": "You can publish your BOS components to the NEAR social so that everyone can use your components.",
             "src": "/video/near4.mp4"
+        },
+        {
+            "title": "Watch Our Introduction Video",
+            "description": "",
+            "src": "/video/demo.mp4"
         }
     ],
     "contact": [
