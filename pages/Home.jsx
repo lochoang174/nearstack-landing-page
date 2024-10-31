@@ -1,18 +1,14 @@
----
-title: Home 
----
-
 import {useEffect} from 'react';
 import FunctionBox from '../components/FunctionBox';
 import QAndA from '../components/QAndA';
 import data from './data.json';
 
 
-export default function IndexPage() {
+function Home() {
   const {functions, contact, qa} = data;
   console.log(functions, contact, qa);
   useEffect(() => {
-      document.body.style.background = "#040a18";
+    document.body.style.backgroundImage = "url('/assets/bkg.png')";
     return () => {
       document.body.style.background = "#fff";
 
@@ -29,15 +25,15 @@ export default function IndexPage() {
           <div className='text-[44px] font-specific-black'>
             <span className='font-sans font-[700] text-[#00ff7f] drop-shadow-[2px_2px_2px_#00000038]'>NEARSTACK</span>
           </div>
-          <p className='font-sans text-[16px] opacity-80 font-[500] text-white'>AI-Enhanced Frontend Development And Blockchain Intergration Platform for Web3</p>
+          <p className='font-sans text-[16px] opacity-80 font-[500]'>AI-Enhanced Frontend Development And Blockchain Intergration Platform for Web3</p>
           <button
           
-            className='uppercase hover:scale-[1.05] duration-100 ease-in transition-all hover:shadow-[var(--primary)] hover:shadow-sm font-sans bg-[#00ff7f] font-[600]  mt-4 text-white py-2 px-3 rounded-md w-fit'
+            className='hover:shadow-lg font-sans bg-[#00ff7f] font-[600]  mt-4 text-white py-2 px-3 rounded-md w-fit'
             onClick={() => {
               document.getElementById('#content').scrollIntoView({ behavior: 'smooth' });
             }}
           >
-            Let's explore
+            Get Started
           </button>
 
           </div>
@@ -75,9 +71,7 @@ export default function IndexPage() {
            <span className='text-[48px] block mt-10 text-[var(--primary)] font-[600]'>Contact</span>
         <div className="contact w-full  flex px-[60px] items-center justify-center mt-10">
 
-            {contact.map((item, index) => <div
-            onClick={() =>  window.location.href = item.link}
-             key={index} className='mx-4 px-6 py-4 rounded-md border-collapse border-[var(--primary)] border-[4px] cursor-pointer hover:scale-[1.05] duration-100 ease-in transition-all'>
+            {contact.map((item, index) => <div key={index} className='mx-4 px-6 py-4 rounded-md border-collapse border-[var(--primary)] border-[4px] cursor-pointer hover:scale-[1.05] duration-100 ease-in transition-all'>
                 <span className="text-[var(--primary)] font-[700]">{item.title}</span>
             </div>)
               }
@@ -90,4 +84,4 @@ export default function IndexPage() {
 );
 }
 
-<IndexPage />
+export default Home;

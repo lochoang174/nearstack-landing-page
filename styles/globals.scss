@@ -11,11 +11,18 @@
   src: url('/public//fonts/SpecifyPERSONAL-ExExpBold.ttf') format('truetype');
 }
 
+.nx-absolute .nx-inset-x-0 {
+  color: #fff;
+}
+
 .nx-bg-white {
-  background-color: transparent !important;
+  background-color: var(--background) !important;
+  color: #fff;
+  box-shadow: 0 4px 6px rgb(61 255 81 / 10%) !important;
 }
 @layer base {
   :root {
+    --background: #040a18;
     --foreground: 222.2 84% 4.9%;
     --qt: #fff;
     --card: 0 0% 100%;

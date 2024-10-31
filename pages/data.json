@@ -1,0 +1,55 @@
+{
+    "functions": [
+        {
+            "title": "Navigate and refactor your code with ease",
+            "description": "An IDE built on top of a canvas, Haystack takes care of the tedious and confusing parts of coding for you",
+            "src": "https://framerusercontent.com/assets/Sijo8uPEuwPBpBKSBNweaOSEj4.mp4",
+            "button": true
+        },
+        {
+            "title": "Navigate and refactor your code with ease 2",
+            "description": "",
+            "src": "https://framerusercontent.com/assets/HeZ5YO35FtPupNQG0d3ix0qsmNE.mp4"
+        }
+    ],
+    "contact": [
+        {
+            "title": "Github",
+            "link": "https://github.com/weminal-labs"
+        },
+        {
+            "title": "X",
+            "link": "https://x.com/Nearstacks"
+        },
+        {
+            "title": "Telegram",
+            "link": "/"
+        },
+        {
+            "title": "Email",
+            "link": "nearstack@gmail.com"
+        }
+    ],
+    "qa": [
+        {
+            "question": "How does Nearstack help developers?",
+            "answer": "It streamlines workflows with AI-driven code suggestions, NEAR BOS integration, and a React flow interface, making development faster and more intuitive."
+        },
+        {
+            "question": "What is NEAR BOS integration?",
+            "answer": "NEAR BOS integration lets developers use NEAR Blockchain Operating System components, making it easier to build decentralized applications with NEAR's tools."
+        },
+        {
+            "question": "Who is Nearstack for?",
+            "answer": "Nearstack is designed for Web3 developers, particularly those building dApps on the NEAR ecosystem, and teams needing efficient, visual workflows."
+        },
+        {
+            "question": "Can Nearstack be used for multi-chain development?",
+            "answer": "Currently, Nearstack is tailored for NEAR, but future plans may include multi-chain support to broaden its Web3 applications."
+        },
+        {
+            "question": "What is Nearstack?",
+            "answer": "Nearstack is a development platform for building Web3 frontends on NEAR, offering tools like AI-powered code suggestions and visual component mapping."
+        }
+    ]
+}

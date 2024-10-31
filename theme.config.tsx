@@ -72,14 +72,15 @@ const config: DocsThemeConfig = {
     };
 
     return (
-      <div className='flex flex-row'>
+      <div className='flex flex-row bg-[var(--background)]'>
         <Link
           href="/"
           className="hidden sm:flex items-center text-current no-underline hover:opacity-75 ltr:mr-auto rtl:ml-auto"
         >
-            <span className='font-sans font-[700] text-[24px] text-[#00ff7f] border-b-[2px] border-[#000]'>NEAR</ span>
-            <span className='font-sans font-[700] text-[24px] text-[#000] border-b-[2px] border-[#00ff7f]'>STACK</ span>
-            {/* <Image src="/logo/logo1.png" alt="logo" width={100} height={45} /> */}
+            {/* <img src="" alt="" /> */}
+            {/* <span className='font-sans font-[700] text-[24px] text-[#00ff7f] border-b-[2px] border-[#000]'>NEAR</ span>
+            <span className='font-sans font-[700] text-[24px] text-[#000] border-b-[2px] border-[#00ff7f]'>STACK</ span> */}
+            <Image src="/logo.png" alt="logo" width={100} height={45} />
           {/* <span className="select-none font-bold ltr:ml-2 rtl:mr-2 inline">Wemical</span> */}
         </Link>
 
